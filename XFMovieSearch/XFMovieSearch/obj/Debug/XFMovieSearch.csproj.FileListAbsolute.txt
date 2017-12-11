@@ -1,0 +1,16 @@
+C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch\bin\Debug\XFMovieSearch.dll
+C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch\bin\Debug\XFMovieSearch.pdb
+C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch\obj\Debug\XFMovieSearch.csprojResolveAssemblyReference.cache
+C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch\obj\Debug\XFMovieSearch.csproj.CoreCompileInputs.cache
+C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch\obj\Debug\XFMovieSearch.MainPage.xaml.g.cs
+C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch\obj\Debug\XFMovieSearch.App.xaml.g.cs
+C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch\obj\Debug\XFMovieSearch.dll
+C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch\obj\Debug\XFMovieSearch.pdb
