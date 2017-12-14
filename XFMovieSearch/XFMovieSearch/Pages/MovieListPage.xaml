@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:customUI="clr-namespace:XFMovieSearch.CustomUI"
+             x:Class="XFMovieSearch.Pages.MovieListPage"
+             Title="Movie List">
+    <ContentPage.Content>
+        <StackLayout Margin="20,40,20,20"
+                     VerticalOptions="Start"
+                     Spacing="10">
+            <SearchBar Placeholder="Enter Search String"
+                       x:Name="SearchBar"
+                       Text="{Binding SearchString}"
+                       SearchCommand="{Binding SearchCommand}"/>
+            <ActivityIndicator x:Name="ActivityIndicator"/>
+            <customUI:MovieListView x:Name="ListView">
+            </customUI:MovieListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-11T11:39:00.473</Modified>
+      <Modified>2017-12-14T16:17:59.085</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch.UWP\bin\x86\Debug\XFMovieSearch.UWP.exe">
       <PackagePath>entrypoint\XFMovieSearch.UWP.exe</PackagePath>
-      <Modified>2017-12-11T11:38:57.829</Modified>
+      <Modified>2017-12-14T16:17:58.555</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Oddur Kröyer\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -513,7 +513,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch\bin\Debug\XFMovieSearch.dll">
       <PackagePath>XFMovieSearch.dll</PackagePath>
-      <Modified>2017-12-11T11:38:55.057</Modified>
+      <Modified>2017-12-14T16:17:56.911</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch\bin\Debug\DM.MovieApi.dll">
+      <PackagePath>DM.MovieApi.dll</PackagePath>
+      <Modified>2017-02-26T16:49:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch\bin\Debug\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2016-06-13T23:06:14.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -684,11 +692,11 @@
     <AppxPackagedFile Include="C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-11T11:38:59.340</Modified>
+      <Modified>2017-12-14T12:52:39.396</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch.UWP\bin\x86\Debug\Core\XFMovieSearch.UWP.exe">
       <PackagePath>XFMovieSearch.UWP.exe</PackagePath>
-      <Modified>2017-12-11T11:39:00.468</Modified>
+      <Modified>2017-12-14T16:17:59.080</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

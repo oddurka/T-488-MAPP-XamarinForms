@@ -21,7 +21,7 @@ namespace XFMovieSearch.UWP
         {
             this.InitializeComponent();
 
-            LoadApplication(new XFMovieSearch.App());
+            LoadApplication(new XFMovieSearch.Pages.App());
         }
     }
 }

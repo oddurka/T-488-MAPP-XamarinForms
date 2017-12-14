@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XFMovieSearch"
+             x:Class="XFMovieSearch.Pages.MainPage"
+             Title="Movie Search">
+    <ContentPage.Content>
+        <StackLayout Margin="20,40,20,20"
+                     VerticalOptions="Start"
+                     Spacing="10">
+            <!--<Label Text="Enter Search String:"
+                HorizontalOptions="Start" />
+            <Entry x:Name="MovieEntry"  Placeholder="eg. Star Wars"/>
+            <Button x:Name="SearchButton" Text="Search"
+                    BorderColor="Color.Gray"
+                    Clicked="SearchButton_Clicked"/>-->
+            <SearchBar Placeholder="Enter Search String"
+                       x:Name="SearchBar"
+                       Text="{Binding SearchString}"
+                       SearchCommand="{Binding SearchCommand}"/>
+            <ActivityIndicator x:Name="ActivityIndicator"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -385,6 +385,12 @@
     <AppxPackagedFile Include="C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch\bin\Debug\XFMovieSearch.dll">
       <PackagePath>XFMovieSearch.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch\bin\Debug\DM.MovieApi.dll">
+      <PackagePath>DM.MovieApi.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch\bin\Debug\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>

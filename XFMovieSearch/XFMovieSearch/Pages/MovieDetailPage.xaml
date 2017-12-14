@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XFMovieSearch.Pages.MovieDetailPage">
+    <ContentPage.Content>
+        <RelativeLayout>
+            <Label Text="{Binding Title}"
+                   RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,
+                Property=Height,Factor=.15,Constant=0}"
+                   RelativeLayout.WidthConstraint="{ConstraintExpression
+                Type=RelativeToParent,Property=Width,Factor=1,Constant=0}"
+                   RelativeLayout.HeightConstraint="{ConstraintExpression
+                Type=RelativeToParent,Property=Height,Factor=.8,Constant=0}" />
+            <Label Text="{Binding Description}" 
+                   FontAttributes="Bold" 
+                   FontSize="26"
+                   HorizontalTextAlignment="Center" 
+                   RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Y, Factor=0, Constant=140}" 
+                   RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}" />
+
+        </RelativeLayout>
+    </ContentPage.Content>
+</ContentPage>
