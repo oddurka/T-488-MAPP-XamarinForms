@@ -24,3 +24,4 @@ C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch\bi
 C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch\bin\Debug\Xamarin.Forms.Xaml.xml
 C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch\obj\Debug\XFMovieSearch.dll
 C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch\obj\Debug\XFMovieSearch.pdb
+C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch\obj\Debug\XFMovieSearch.csprojResolveAssemblyReference.cache
