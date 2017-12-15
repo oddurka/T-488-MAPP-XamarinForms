@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-15T11:33:51.372</Modified>
+      <Modified>2017-12-15T12:51:19.411</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch.UWP\bin\x86\Debug\XFMovieSearch.UWP.exe">
       <PackagePath>entrypoint\XFMovieSearch.UWP.exe</PackagePath>
-      <Modified>2017-12-15T11:33:46.975</Modified>
+      <Modified>2017-12-15T12:51:18.687</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Oddur Kröyer\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -513,7 +513,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch\bin\Debug\XFMovieSearch.dll">
       <PackagePath>XFMovieSearch.dll</PackagePath>
-      <Modified>2017-12-15T10:42:32.802</Modified>
+      <Modified>2017-12-15T12:51:16.593</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch\bin\Debug\DM.MovieApi.dll">
       <PackagePath>DM.MovieApi.dll</PackagePath>
@@ -692,11 +692,11 @@
     <AppxPackagedFile Include="C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-15T11:33:50.116</Modified>
+      <Modified>2017-12-15T11:49:27.796</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch.UWP\bin\x86\Debug\Core\XFMovieSearch.UWP.exe">
       <PackagePath>XFMovieSearch.UWP.exe</PackagePath>
-      <Modified>2017-12-15T11:33:51.362</Modified>
+      <Modified>2017-12-15T12:51:19.405</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

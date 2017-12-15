@@ -16,6 +16,6 @@ namespace XFMovieSearch.Model
         public string Actors { get => base.Actors; set => base.Actors = value; }
         public string Description { get => base.Description; set => base.Description = value; }
         public string PosterPath { get; set; }
-        //public ImageSource ImageSource => ImageSource.FromUri(new Uri(PosterPath));
+        public ImageSource ImageSource => ImageSource.FromUri(new Uri("https://image.tmdb.org/t/p/w500" +PosterPath));
     }
 }
