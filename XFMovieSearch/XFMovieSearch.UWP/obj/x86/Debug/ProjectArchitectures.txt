@@ -1,2 +1,0 @@
-C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch.UWP\XFMovieSearch.UWP.csproj;x86
-C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch\XFMovieSearch.csproj;neutral

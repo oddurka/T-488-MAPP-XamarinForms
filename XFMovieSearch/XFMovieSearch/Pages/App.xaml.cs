@@ -15,22 +15,7 @@ namespace XFMovieSearch.Pages
         {
             InitializeComponent();
 
-            var searchPage = new MovieListPage(new FilmCollection());
-            var searchPageNavigator = new NavigationPage(searchPage);
-            searchPageNavigator.Title = "Search";
-
-            var topRatedPage = new TopRatedPage(new FilmCollection());
-            var topReatedNavigator = new NavigationPage(topRatedPage);
-            topReatedNavigator.Title = "Top Rated";
-
-            var popularPage = new PopularPage(new FilmCollection());
-            var popularNavigator = new NavigationPage(popularPage);
-            popularNavigator.Title = "Popular";
-
             var tabbedPage = new TabBarPage();
-            tabbedPage.Children.Add(searchPageNavigator);
-            tabbedPage.Children.Add(popularNavigator);
-            tabbedPage.Children.Add(topReatedNavigator);
             
             MainPage = tabbedPage;
         }

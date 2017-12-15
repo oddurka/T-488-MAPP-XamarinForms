@@ -1,11 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ListView xmlns="http://xamarin.com/schemas/2014/forms" 
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="XFMovieSearch.CustomUI.MovieListView"
-             HasUnevenRows="True"
-             ItemsSource="{Binding Films}"
-             SeparatorColor="LightGray"
-             SelectedItem="{Binding SelectedMovie}">
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="XFMovieSearch.CustomUI.MovieListView"
+            HasUnevenRows="True"
+            ItemsSource="{Binding Films}"
+            SeparatorColor="LightGray"
+            SelectedItem="{Binding SelectedMovie}"
+            x:Name="SharedListView">
     <ListView.RowHeight>
         <OnPlatform x:TypeArguments="x:Int32">
             <On Platform="iOS">60</On>
@@ -27,14 +28,14 @@
                         <ColumnDefinition Width="60"/>
                     </Grid.ColumnDefinitions>
                     <Label Text="{Binding Title}"
-                                   FontSize="Medium"/>
+                            FontSize="Medium"/>
                     <Label Grid.Row="1"
-                                   Text="{Binding Actors}"
-                                   FontSize="Small">
+                            Text="{Binding Actors}"
+                            FontSize="Small">
                     </Label>
                     <!--<Image Grid.Column="1"
-                                   Grid.RowSpan="2"
-                                   Source="{Binding ImageSource}"/>-->
+                            Grid.RowSpan="2"
+                            Source="{Binding ImageSource}"/>-->
                 </Grid>
             </ViewCell>
         </DataTemplate>

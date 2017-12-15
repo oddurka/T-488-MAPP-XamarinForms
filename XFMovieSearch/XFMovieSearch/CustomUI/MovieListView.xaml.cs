@@ -15,6 +15,11 @@ namespace XFMovieSearch.CustomUI
         public MovieListView()
         {
             InitializeComponent();
+
+            this.ItemTapped += (object sender, ItemTappedEventArgs e) =>
+            {
+                ((ListView)sender).SelectedItem = null;
+            };
         }
     }
 }

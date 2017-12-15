@@ -22,11 +22,17 @@ namespace XFMovieSearch.Pages
             InitializeComponent();
         }
 
+        public async Task loadData()
+        {
+            await this._modelView.LoadData();
+        }
+
         protected override async void OnAppearing()
         {
             base.OnAppearing();
             if (this._modelView.Films.Count == 0)
-                await this._modelView.LoadData();
+                loadData();
+                
         }
     }
 }
