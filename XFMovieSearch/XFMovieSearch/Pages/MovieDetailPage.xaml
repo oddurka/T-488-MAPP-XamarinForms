@@ -3,21 +3,46 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XFMovieSearch.Pages.MovieDetailPage">
     <ContentPage.Content>
-        <RelativeLayout>
-            <Label Text="{Binding Title}"
-                   RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,
-                Property=Height,Factor=.15,Constant=0}"
-                   RelativeLayout.WidthConstraint="{ConstraintExpression
-                Type=RelativeToParent,Property=Width,Factor=1,Constant=0}"
-                   RelativeLayout.HeightConstraint="{ConstraintExpression
-                Type=RelativeToParent,Property=Height,Factor=.8,Constant=0}" />
-            <Label Text="{Binding Description}" 
-                   FontAttributes="Bold" 
-                   FontSize="26"
-                   HorizontalTextAlignment="Center" 
-                   RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Y, Factor=0, Constant=140}" 
-                   RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}" />
+        <ScrollView IsEnabled="True">
+            <Grid Padding="10,10"
+              RowSpacing="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="106"/>
+                    <RowDefinition Height="16"/>
+                    <RowDefinition Height="104"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="161"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Image Source="{Binding MoviePoster}"
+                       Grid.RowSpan="3"/>
+                <Label Text="{Binding Title}"
+                       Grid.Column="1"
+                       FontSize="30"/>
+                <Label Text="{Binding ReleaseYear}"
+                       Grid.Row="1"
+                       Grid.Column="1"/>
+                <Label Text="{Binding RunTime}"
+                       Grid.Row="2"
+                       Grid.Column="1"/>
+                <Label Text="{Binding Genre}"
+                       Grid.Row="2"
+                       Grid.Column="1"/>
+                <Label Text="{Binding Description}"
+                       Grid.Row="3"
+                       Grid.ColumnSpan="2"/>
+                <Image Source="{Binding MovieBackDrop}"
+                       Grid.Row="4"
+                       Grid.ColumnSpan="2"/>
+                <Label Text="{Binding TagLine}"
+                       Grid.Row="5"
+                       Grid.ColumnSpan="2"/>
 
-        </RelativeLayout>
+            </Grid>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

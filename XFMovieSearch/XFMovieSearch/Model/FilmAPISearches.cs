@@ -65,9 +65,11 @@ namespace XFMovieSearch.Model
             List<string> genres = new List<string>();
             ApiQueryResponse<Movie> infoResponse = await movieApi.FindByIdAsync(movie.Id);
 
-            movie.ReleaseYear = infoResponse.Item.ReleaseDate.Year;
+            movie.ReleaseYear = infoResponse.Item.ReleaseDate.Year.ToString();
             movie.Runtime = infoResponse.Item.Runtime.ToString();
             movie.Description = infoResponse.Item.Overview;
+            movie.TagLine = infoResponse.Item.Tagline;
+            movie.BackDropPath = infoResponse.Item.BackdropPath;
 
             if (infoResponse.Item.Genres.Count != 0)
             {
@@ -99,12 +101,12 @@ namespace XFMovieSearch.Model
                 Film movie = new Film()
                 {
                     Title = info.Title,
-                    ReleaseYear = infoResponse.Item.ReleaseDate.Year,
+                    ReleaseYear = infoResponse.Item.ReleaseDate.Year.ToString(),
                     Runtime = infoResponse.Item.Runtime.ToString(),
                     Genre = "",
                     Actors = "",
                     Description = infoResponse.Item.Overview,
-                    PosterPath = infoResponse.Item.PosterPath
+                    PosterPath = infoResponse.Item.PosterPath,
                 };
 
                 if (infoResponse.Item.Genres.Count != 0)

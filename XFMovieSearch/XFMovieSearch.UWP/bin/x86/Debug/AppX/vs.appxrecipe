@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-15T12:51:19.411</Modified>
+      <Modified>2017-12-15T17:30:17.575</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch.UWP\bin\x86\Debug\XFMovieSearch.UWP.exe">
       <PackagePath>entrypoint\XFMovieSearch.UWP.exe</PackagePath>
-      <Modified>2017-12-15T12:51:18.687</Modified>
+      <Modified>2017-12-15T17:30:16.995</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Oddur Kröyer\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -513,7 +513,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch\bin\Debug\XFMovieSearch.dll">
       <PackagePath>XFMovieSearch.dll</PackagePath>
-      <Modified>2017-12-15T12:51:16.593</Modified>
+      <Modified>2017-12-15T17:30:15.052</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch\bin\Debug\DM.MovieApi.dll">
       <PackagePath>DM.MovieApi.dll</PackagePath>
@@ -677,9 +677,17 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-12-11T11:37:59.214</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch\Images\movieSearcher3000_icon120x120.png">
+      <PackagePath>XFMovieSearch\Images\movieSearcher3000_icon120x120.png</PackagePath>
+      <Modified>2017-12-15T17:29:44.296</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch\Images\movieSearcher3000_portrait640x960.png">
+      <PackagePath>XFMovieSearch\Images\movieSearcher3000_portrait640x960.png</PackagePath>
+      <Modified>2017-12-15T17:29:44.323</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch.UWP\bin\x86\Debug\XFMovieSearch.UWP.xr.xml">
       <PackagePath>XFMovieSearch.UWP.xr.xml</PackagePath>
-      <Modified>2017-12-11T11:38:57.488</Modified>
+      <Modified>2017-12-15T14:41:57.543</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -692,11 +700,11 @@
     <AppxPackagedFile Include="C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-15T11:49:27.796</Modified>
+      <Modified>2017-12-15T14:41:58.441</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch.UWP\bin\x86\Debug\Core\XFMovieSearch.UWP.exe">
       <PackagePath>XFMovieSearch.UWP.exe</PackagePath>
-      <Modified>2017-12-15T12:51:19.405</Modified>
+      <Modified>2017-12-15T17:30:17.568</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -513,6 +513,12 @@
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch\Images\movieSearcher3000_icon120x120.png">
+      <PackagePath>XFMovieSearch\Images\movieSearcher3000_icon120x120.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch\Images\movieSearcher3000_portrait640x960.png">
+      <PackagePath>XFMovieSearch\Images\movieSearcher3000_portrait640x960.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Oddur Kröyer\source\repos\XFMovieSearch\XFMovieSearch\XFMovieSearch.UWP\bin\x86\Debug\XFMovieSearch.UWP.xr.xml">
       <PackagePath>XFMovieSearch.UWP.xr.xml</PackagePath>
     </AppxPackagedFile>

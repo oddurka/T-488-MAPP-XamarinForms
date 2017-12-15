@@ -9,7 +9,7 @@
             x:Name="SharedListView">
     <ListView.RowHeight>
         <OnPlatform x:TypeArguments="x:Int32">
-            <On Platform="iOS">60</On>
+            <On Platform="iOS">80</On>
             <On Platform="Android">60</On>
             <On Platform="UWP">100</On>
         </OnPlatform>
@@ -35,7 +35,7 @@
                     </Label>
                     <Image Grid.Column="1"
                             Grid.RowSpan="2"
-                            Source="{Binding ImageSource}"/>
+                            Source="{Binding MoviePoster}"/>
                 </Grid>
             </ViewCell>
         </DataTemplate>

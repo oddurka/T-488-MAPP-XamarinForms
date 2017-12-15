@@ -29,18 +29,8 @@ namespace XFMovieSearch.ViewModels
                 if(this._movie != value)
                 {
                     this._movie = value;
-                    OnPropertyChanged("Film");
+                    OnPropertyChanged();
                 }
-            }
-        }
-
-        public string Description
-        {
-            get => this._movie.Description;
-            set
-            {
-                this._movie.Description = value;
-                OnPropertyChanged(this._movie.Description);
             }
         }
 

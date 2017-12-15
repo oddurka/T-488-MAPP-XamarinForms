@@ -5,13 +5,15 @@ namespace XFMovieSearch.Model
 {
     public class FilmModel : INotifyPropertyChanged
     {
-        private int _releaseYear;
+        private string _releaseYear;
         private string _runTime;
         private string _genre;
         private string _actors;
         private string _description;
+        private string _tagLine;
+        private string _backDropPath;
 
-        public int ReleaseYear
+        public string ReleaseYear
         {
             get => _releaseYear;
             set
@@ -71,6 +73,32 @@ namespace XFMovieSearch.Model
                 if(_description != value)
                 {
                     _description = value;
+                    OnPropertyChanged();
+                }
+            }
+        }
+
+        public string TagLine
+        {
+            get => _tagLine;
+            set
+            {
+                if (_tagLine != value)
+                {
+                    _tagLine = value;
+                    OnPropertyChanged();
+                }
+            }
+        }
+
+        public string BackDropPath
+        {
+            get => _backDropPath;
+            set
+            {
+                if (_backDropPath != value)
+                {
+                    _backDropPath = value;
                     OnPropertyChanged();
                 }
             }
